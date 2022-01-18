@@ -1,0 +1,37 @@
+aside {
+    display: none;
+}
+
+header {
+    background-color: #808080;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 58px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+a {
+    color: #000;
+    background-color: #999999;
+    font-size: 24px;
+}
+
+h2 {
+    color: #00F;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+section {
+    background-color: #666666;
+    font-size: 24px;
+
+}
+
+body {
+    padding: 15px;
+}
