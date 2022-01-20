@@ -1,7 +1,5 @@
-
-
 body {
-    padding: 5px;
+    padding: 9px;
     margin: 10px;
 }
 
@@ -21,8 +19,9 @@ h1 {
 }
 
 h2 {
-    margin-top:0;
-    padding-top: 20px;
+    margin-top: 0;
+    font-size: 38px;
+    padding: 20px;
 }
 
 nav a {
@@ -30,11 +29,11 @@ nav a {
     margin:5px 50px 30px 50px;
     text-decoration: none;
     border-radius: 3px;
-    padding: 20px;
+    padding: 15px 25px;
     background-color: rgba(240, 255, 255, 0.3);
-    width:10%;
+    width:13%;
     text-align: center;
-    color: black;
+    color: #000;
     font-weight: 600;
 
 }
@@ -43,43 +42,32 @@ nav a {
     background-color: rgba(240, 255, 255, 1);
 }
 
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
 .left {
+    display: block;
+    background-color: #008000;
+    width: 25%;
+    height: 120%;
+    float: left;
+    align-items: center;
 
 }
 
 .right {
+    width: 100%;
+    float:inline-start
+}
+
+img {
+    border: 3px solid #000;
+    width: 80%;
+    margin: 20px 30px;
+    align-self: center;
 
 }
 
-.left img {
-    border: 2px solid #000;
-    width: 18%;
-    display: block;
-    margin: 20px;
-    float: left;
-    clear: both;
-    background-color: #008000;
-    height: 100%;
-}
 
-
-p {
-    font-size: 20px;
-}
-
-aside {
-    background-color: black;
-}
-
-.left {
-    background-color: #008000;
-}
-
-main {
-    background-color: #008000;
-    height: 500px;
-}
-
-section {
-    background-color: #fff;
-}
