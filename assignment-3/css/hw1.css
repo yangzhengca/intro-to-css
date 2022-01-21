@@ -1,0 +1,135 @@
+/* styles for finial assignment - week 4 */
+/* Best to a large screen - >768px */
+
+/* The table should be styled using at least four properties */
+table {
+    padding: 10px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    line-height: 40px;
+    font-weight: 600;
+    width: 70%;
+}
+
+/* The table headings should have a thicker bottom border with the top two corners rounded, a background color, and at least one other property */
+th {
+    border: 1px solid #00ff00;
+    border-bottom: 5px solid #00ff00;
+    border-radius: 8px 8px 0 0;
+    background-color:#32cd32;
+    background-image: linear-gradient(#32cd32, #15c118);    
+    color: #faf0e6;
+    text-align: center;
+    padding: 10px;
+}
+
+/* The table elements <td> should be styled using at least four  properties */
+td {
+    text-align: center;
+    background-color: rgb(209, 214, 154);
+    color: rgb(16, 48, 48);
+    padding: 5px 10px;
+    border-radius: 2px;
+    text-shadow: .5px .1px rgb(16, 48, 48);
+}
+
+/* Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered */
+
+td:first-child {
+    text-align: left;
+}
+th:first-child {
+    text-align: left;
+}
+
+/* Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible) */
+tr {
+    opacity: 0.7;
+}
+
+/* Change the opacity of a row when it is hovered over */
+tr:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+/* styles for assignment 2 */
+
+body {
+    padding: 9px;
+    margin: 10px;
+}
+
+header {
+ background-color: #808080;
+ background-image: url("../images/flywheel.jpg");
+ padding: 15px;
+ background-repeat: space;
+ background-size: 100%;
+ margin-bottom: 0;
+}
+
+h1 {
+ text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 38px;
+    padding: 20px;
+}
+
+nav a {
+    display: inline-block;
+    /* margin:5px 50px 30px 50px; */
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 15px 25px;
+    background-color: rgba(240, 255, 255, 0.3);
+    width:13%;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.active {
+    background-color: rgba(240, 255, 255, 1);
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.left {
+    display: block;
+    background-color: #008000;
+    width: 25%;
+    height: 100vh;
+    float: left;
+    align-items: center;
+    /* margin: 0 auto; */
+
+}
+
+.right {
+    width: 100%;
+    float:inline-start
+}
+
+img {
+    border: 3px solid #000;
+    width: 70%;
+    margin: 20px 30px;
+    align-self: center;
+    /* margin: 0 auto; */
+}
+
+
